@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OneConference>
+	<Authors>
+		<Author id="2345">
+			<name>Juan Manuel</name>
+			<surname>Caro Lopez</surname>
+			<password>null</password>
+			<city>Murcia</city>
+			<country>Spain</country>
+			<mail>226737@student.pwr.edu.pl</mail>
+		</Author>
+		<Author id="2344">
+			<name>Pablo</name>
+			<surname>Saura Perez</surname>
+			<password>null</password>
+			<city>Murcia</city>
+			<country>Spain</country>
+			<mail>1234123@student.pwr.edu.pl</mail>
+		</Author>
+	</Authors>
+	<Chairs>
+		<Chair id="2346">
+			<name>The</name>
+			<surname>Chair</surname>
+			<password>null</password>
+			<city>Wroclaw</city>
+			<country>Poland</country>
+			<mail>chair@student.pwr.edu.pl</mail>
+			<conferences>
+				<conference ref="1234"></conference>
+				<conference ref="1235"></conference>
+			</conferences>
+		</Chair>
+		<Chair id="2347">
+			<name>The</name>
+			<surname>Chair 2</surname>
+			<password>null</password>
+			<city>Wroclaw</city>
+			<country>Poland</country>
+			<mail>chair2@student.pwr.edu.pl</mail>
+			<conferences>
+			</conferences>
+		</Chair>
+	</Chairs>
+	<Reviewers>
+		<Reviewer id="2348">
+			<name>The</name>
+			<surname>Reviewer 1</surname>
+			<password>null</password>
+			<city>Wroclaw</city>
+			<country>Poland</country>
+			<mail>reviewer@student.pwr.edu.pl</mail>
+			<cv>Some CV</cv>
+			<topic>Technology</topic>
+			<salary>12</salary>
+			<reviews>
+				<review ref="1230"></review>
+				<review ref="1231"></review>
+			</reviews>
+			<pendingReviews>
+				<paper ref="7890"></paper>
+			</pendingReviews>
+		</Reviewer>
+		<Reviewer id="2349">
+			<name>The</name>
+			<surname>Reviewer 2</surname>
+			<password>null</password>
+			<city>Wroclaw</city>
+			<country>Poland</country>
+			<mail>reviewer@student.pwr.edu.pl</mail>
+			<cv>Some CV</cv>
+			<topic>Technology</topic>
+			<salary>16</salary>
+			<pendingReviews>
+				<paper ref="7891"></paper>
+			</pendingReviews>
+		</Reviewer>
+		<Reviewer id="2350">
+			<name>The</name>
+			<surname>Reviewer 3</surname>
+			<password>null</password>
+			<city>Wroclaw</city>
+			<country>Poland</country>
+			<mail>reviewer@student.pwr.edu.pl</mail>
+			<cv>Some CV</cv>
+			<topic>Software</topic>
+			<salary>17</salary>
+			<pendingReviews/>
+		</Reviewer>
+		<Reviewer id="2351">
+			<name>The</name>
+			<surname>Reviewer 4</surname>
+			<password>null</password>
+			<city>Wroclaw</city>
+			<country>Poland</country>
+			<mail>reviewer@student.pwr.edu.pl</mail>
+			<cv>Some CV</cv>
+			<topic>Sciences</topic>
+			<salary>23</salary>
+			<pendingReviews/>
+		</Reviewer>
+	</Reviewers>
+	<Conferences>
+		<Conference id="1234">
+			<name>Black hat conference</name>
+			<startDate>01/07/2016</startDate>
+			<price>67</price>
+			<city>Warsaw</city>
+			<chair ref="2346"></chair>
+			<paperDeadLines>01/04/2016</paperDeadLines>
+			<endDate>01/04/2016</endDate>
+			<capacity>100</capacity>
+			<paperList>
+				<paper ref="7892"></paper>
+				<paper ref="7894"></paper>
+			</paperList>
+			<reviewerList>
+				<reviewer ref="2348"></reviewer>
+			</reviewerList>
+			<authorList>
+				<author ref="2344"></author>
+				<author ref="2345"></author>
+			</authorList>
+		</Conference>
+		<Conference id="1235">
+			<name>Apple key note</name>
+			<startDate>01/03/2016</startDate>
+			<price>23</price>
+			<city>Wroclaw</city>
+			<chair ref="2346"></chair>
+			<paperDeadLines>01/02/2016</paperDeadLines>
+			<endDate>01/02/2016</endDate>
+			<capacity>2500</capacity>
+			<paperList>
+				<paper ref="7890"></paper>
+				<paper ref="7891"></paper>
+				<paper ref="7893"></paper>
+			</paperList>
+			<reviewerList>
+				<reviewer ref="2348"></reviewer>
+				<reviewer ref="2349"></reviewer>
+			</reviewerList>
+			<authorList>
+				<author ref="2345"></author>
+				<author ref="2344"></author>
+			</authorList>
+		</Conference>
+	</Conferences>
+	<Papers>
+		<Paper id="7890">
+			<author ref="2345"></author>
+			<name>Paper 1</name>
+			<subDate>22/01/2016</subDate>
+			<review ref=""></review>
+			<topic>Technology</topic>
+			<file>./Papers/paper1.txt</file>
+			<conference ref="1234"></conference>
+		</Paper>
+		<Paper id="7891">
+			<author ref="2345"></author>
+			<name>Paper 2</name>
+			<subDate>22/01/2016</subDate>
+			<review ref="1231"></review>
+			<topic>Technology</topic>
+			<file>./Papers/paper2.txt</file>
+			<conference ref="1234"></conference>
+		</Paper>
+		<Paper id="7892">
+			<author ref="2344"></author>
+			<name>Paper 3</name>
+			<subDate>22/01/2016</subDate>
+			<review ref="1230"></review>
+			<topic>Technology</topic>
+			<file>./Papers/paper3.txt</file>
+			<conference ref="1234"></conference>
+		</Paper>
+		<Paper id="7893">
+			<author ref="2345"></author>
+			<name>Paper 4</name>
+			<subDate>22/01/2016</subDate>
+			<review ref=""></review>
+			<topic>Science</topic>
+			<file>./Papers/paper4.txt</file>
+			<conference ref="1235"></conference>
+		</Paper>
+		<Paper id="7894">
+			<author ref="2345"></author>
+			<name>Paper 5</name>
+			<subDate>22/01/2016</subDate>
+			<review ref=""></review>
+			<topic>Software</topic>
+			<file>./Papers/paper5.txt</file>
+			<conference ref="1234"></conference>
+		</Paper>
+	</Papers>
+	<Reviews>
+		<Review id="1230">
+			<grade>4</grade>
+			<deadLine>null</deadLine>
+			<comment>comment1.txt</comment>
+			<reviewer ref="2348"></reviewer>
+			<paper ref="7892"></paper>
+		</Review>
+		<Review id="1231">
+			<grade>4</grade>
+			<deadLine>null</deadLine>
+			<comment>comment1.txt</comment>
+			<reviewer ref="2348"></reviewer>
+			<paper ref="7891"></paper>
+		</Review>
+	</Reviews>
+</OneConference>
